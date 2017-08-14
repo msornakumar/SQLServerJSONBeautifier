@@ -1,0 +1,10 @@
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\JSONBeautifier.sqlprojResolveAssemblyReference.cache
+E:\Development\C#\JSONBeautifier\JSONBeautifier\bin\Debug\JSONBeautifier.dacpac
+E:\Development\C#\JSONBeautifier\JSONBeautifier\bin\Debug\JSONBeautifier.dll
+E:\Development\C#\JSONBeautifier\JSONBeautifier\bin\Debug\JSONBeautifier.pdb
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\Model.xml
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\refactor.xml
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\postdeploy.sql
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\predeploy.sql
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\JSONBeautifier.dll
+E:\Development\C#\JSONBeautifier\JSONBeautifier\obj\Debug\JSONBeautifier.pdb
