@@ -37,3 +37,9 @@ Pass the string directly in the function. This string can be assigned to a varia
 ```
 SELECT [dbo].[IndentJSON]('{"id": 1,"name": "A green door","price": 12.50,"tags": ["home", "green"]}')
 ```
+
+#### References
+
+Used the C# code from the below link with modifications
+
+https://stackoverflow.com/questions/4580397/json-formatter-in-c
