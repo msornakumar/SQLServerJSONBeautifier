@@ -7,5 +7,33 @@ SQL Server 2016 has the new feature of creating JSON output using FOR JSON claus
 
 In the deploy folder open JSONBeautifier.sql and run the code in the same order. At the end of the script there are some examples provided on how to use this function.
 
+### How to use the function
 
+This is a scalar function which will take the JSON string as input and provide the formatted \ beautified \ intended JSON output.
 
+#### Example 1
+
+Pass the JSON value from a query into the function.
+
+```
+SELECT  [dbo].[IndentJSON](
+		LTRIM
+		(
+		(
+		SELECT TOP 2 A.ADDRESSID
+					 ,A.CITY AS "REGION.CITY" 
+					 ,A.COUNTRYREGION AS "REGION.COUNTRYREGION" 
+		  FROM ADVENTUREWORKSLT2012.SALESLT.ADDRESS A
+		 FOR JSON PATH , ROOT('Region')
+		) 
+		)
+		)
+```
+
+#### Example 2
+
+Pass the string directly in the function. This string can be assigned to a variable and passed as a parameter.
+
+```
+SELECT [dbo].[IndentJSON]('{"id": 1,"name": "A green door","price": 12.50,"tags": ["home", "green"]}')
+```
